@@ -12,7 +12,7 @@
     .menuft{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 210px;
+        gap: 196px;
         height: 380px;
         row-gap: 224px;
     }
@@ -27,23 +27,29 @@
         text-decoration: none;
         color: #FBFBFB;
         font-size: 20px;
+        position: relative;
+        left: 25px;
+    }
+    .logo-svg{
+        position: absolute;
     }
     .menuft address{
         position: relative;
         left: 100%;
         transform: translateX(89%);
         bottom: 150px;
-        width: 237px;
+        width: 234px;
     }
     .menuft .sag {
         display: flex;
         flex-direction: column;
-        width: 246px;
+        width: 236px;
         height: 146px;
         gap: 25px;
+        position: relative;
+        left: 10px;
     }
     .menuft .sag a{
-        font-family: Inter Tight;
         font-size: 32px;
         font-weight: 600;
         line-height: 32px;
@@ -53,7 +59,6 @@
         color: #FBFBFB;
         }
         .menuft address a{
-        font-family: Inter Tight;
         font-size: 18px;
         font-weight: 600;
         line-height: 20px;
@@ -63,7 +68,6 @@
         color: #FBFBFB;
         }
         .menuft address p{
-        font-family: Inter Tight;
         font-size: 18px;
         font-weight: 600;
         line-height: 20px;
@@ -93,6 +97,7 @@
         gap: 8;
     }
     .privacy .sag p{
+        width: 178px;
         font-size: 18px;
         font-weight: 500;
         line-height: 20px;

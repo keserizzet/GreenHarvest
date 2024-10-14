@@ -17,12 +17,12 @@ body {
 display: flex;
 gap: 121px;
 }
+
 .menuft .sol{
 width: 50%;
 height: 103px;
 }
 .menuft .sol p{
-font-family: Inter Tight;
 font-size: 16px;
 font-weight: 500;
 line-height: 20px;
@@ -43,7 +43,6 @@ height: 146px;
 gap: 25px;
 }
 .menuft .sag a{
-font-family: Inter Tight;
 font-size: 32px;
 font-weight: 600;
 line-height: 32px;
@@ -53,7 +52,6 @@ text-decoration: none;
 color: #FBFBFB;
 }
 .menuft address a{
-font-family: Inter Tight;
 font-size: 18px;
 font-weight: 600;
 line-height: 20px;
@@ -63,7 +61,6 @@ text-decoration: none;
 color: #FBFBFB;
 }
 .menuft address p{
-font-family: Inter Tight;
 font-size: 18px;
 font-weight: 600;
 line-height: 20px;
@@ -81,7 +78,6 @@ top: 130px;
 }
 .privacy .sol p a{
     text-decoration: none;
-    font-family: Inter Tight;
     font-size: 18px;
     font-weight: 500;
     line-height: 20px;
@@ -95,11 +91,15 @@ top: 130px;
 .privacy .sag p{
 width: 172px;
 height: 20px;
-font-family: Inter Tight;
 font-size: 18px;
 font-weight: 500;
 line-height: 20px;
 letter-spacing: -0.015em;
 text-align: left;
 color: #FBFBFB80;
+}
+.ustlogo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
