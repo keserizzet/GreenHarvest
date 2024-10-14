@@ -13,14 +13,6 @@ body {
     padding: 50px 100px 50px 100px;
     height: 391px;
 }
-.icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-}
 .menuft{
 display: flex;
 gap: 121px;

@@ -12,8 +12,16 @@
     .menuft{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 224px;
+        gap: 210px;
         height: 380px;
+        row-gap: 224px;
+    }
+    .menuft .sol p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        width: 296px;
     }
     .menuft .sol .ustlogo a{
         text-decoration: none;
@@ -23,7 +31,7 @@
     .menuft address{
         position: relative;
         left: 100%;
-        transform: translateX(94%);
+        transform: translateX(89%);
         bottom: 150px;
         width: 237px;
     }
@@ -66,7 +74,7 @@
     .privacy{
         width: 704px;
         height: 20px;
-        gap: 284px;
+        gap: 293px;
         display: flex;
         position: relative;
         top: 20px;
