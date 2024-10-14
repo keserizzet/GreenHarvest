@@ -103,3 +103,6 @@ color: #FBFBFB80;
     gap: 5px;
     align-items: center;
 }
+logo-svg{
+    position: absolute;
+}
