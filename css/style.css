@@ -1,0 +1,113 @@
+body {
+    font-family: "Inter Tight", sans-serif;
+  }
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #7A3145;
+  }
+.footer{
+    width: 1280px;
+    padding: 50px 100px 50px 100px;
+    height: 391px;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.menuft{
+display: flex;
+gap: 121px;
+}
+.menuft .sol{
+width: 50%;
+height: 103px;
+}
+.menuft .sol p{
+font-family: Inter Tight;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+color: #FBFBFB;
+width: 265px;
+}
+.sol .ustlogo a{
+    text-decoration: none;
+    color: #FBFBFB;
+    font-size: 18px;
+}
+.menuft .sag{
+display: flex;
+flex-direction: column;
+width: 260px;
+height: 146px;
+gap: 25px;
+}
+.menuft .sag a{
+font-family: Inter Tight;
+font-size: 32px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: -0.015em;
+text-align: left;
+text-decoration: none;
+color: #FBFBFB;
+}
+.menuft address a{
+font-family: Inter Tight;
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: -0.015em;
+text-align: left;
+text-decoration: none;
+color: #FBFBFB;
+}
+.menuft address p{
+font-family: Inter Tight;
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: -0.015em;
+text-align: left;
+color: #FBFBFB;
+}
+.privacy{
+display: flex;
+width: 1080px;
+height: 20px;
+gap: 660px;
+position: relative;
+top: 130px;
+}
+.privacy .sol p a{
+    text-decoration: none;
+    font-family: Inter Tight;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #FBFBFB80;
+}
+.privacy .sol p{
+    color: #FBFBFB80;
+}
+.privacy .sag p{
+width: 172px;
+height: 20px;
+font-family: Inter Tight;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.015em;
+text-align: left;
+color: #FBFBFB80;
+}

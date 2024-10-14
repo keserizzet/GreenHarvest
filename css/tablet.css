@@ -1,0 +1,94 @@
+@media screen and (min-width: 768px) and (max-width: 1280px){
+    .container {
+        max-width: 1280px;
+        width: 100%;
+        
+      }
+      .footer{
+        width: 100%;
+        padding: 30px;
+        height: 479px;
+      }
+    .menuft{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 224px;
+        height: 380px;
+    }
+    .menuft .sol .ustlogo a{
+        text-decoration: none;
+        color: #FBFBFB;
+        font-size: 20px;
+    }
+    .menuft address{
+        position: relative;
+        left: 100%;
+        transform: translateX(94%);
+        bottom: 150px;
+        width: 237px;
+    }
+    .menuft .sag {
+        display: flex;
+        flex-direction: column;
+        width: 246px;
+        height: 146px;
+        gap: 25px;
+    }
+    .menuft .sag a{
+        font-family: Inter Tight;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        text-decoration: none;
+        color: #FBFBFB;
+        }
+        .menuft address a{
+        font-family: Inter Tight;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        text-decoration: none;
+        color: #FBFBFB;
+        }
+        .menuft address p{
+        font-family: Inter Tight;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: #FBFBFB;
+        }
+    .privacy{
+        width: 704px;
+        height: 20px;
+        gap: 284px;
+        display: flex;
+        position: relative;
+        top: 20px;
+        align-items: center;
+    }
+    .privacy .sol p a{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+    .privacy .sol p{
+        width: 248px;
+        display: flex;
+        gap: 8;
+    }
+    .privacy .sag p{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+}
